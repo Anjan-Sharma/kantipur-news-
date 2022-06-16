@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.kn-top-bar {
+  background-color: #000000;
+  padding-bottom: 12px;
+ 
+  }
+.kn-container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+.kn-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 12px;
+}
+
+ .kn-top-bar--left  {
+    color: white;
+  }
